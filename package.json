@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-stats-preview-flex",
 	"version": "1.0.0",
-	"description": "This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+	"description": "stats preview project with display flex",
 	"main": "index.js",
 	"scripts": {
 		"dev": "sass --watch scss/main.scss css/main.css",
