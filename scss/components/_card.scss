@@ -114,6 +114,7 @@
 	.card__stats-list {
 		@include mix.flex-direction(row);
 		@include mix.flex-wrap(wrap);
+		@include mix.justify-content(space-between);
 		gap: func.em(30, var.$font-size-primary);
 	}
 }
