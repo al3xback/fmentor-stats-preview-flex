@@ -170,7 +170,7 @@ ol {
   -webkit-box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
   box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
-  font-size: 1.0666666667em;
+  font-size: 1em;
   text-decoration: none;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -369,41 +369,32 @@ main > .container {
   align-items: center;
 }
 
+footer,
+footer .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   width: 100%;
   padding: 1em 0;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
-footer > .container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-flex: auto;
-  -moz-box-flex: auto;
-  -ms-flex: auto;
-  -webkit-flex: auto;
-  flex: auto;
-}
-
+footer .container,
 footer p {
   -webkit-box-flex: auto;
   -moz-box-flex: auto;
   -ms-flex: auto;
   -webkit-flex: auto;
   flex: auto;
-  font-size: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */
