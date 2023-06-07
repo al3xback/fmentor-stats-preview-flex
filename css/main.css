@@ -335,12 +335,10 @@ ol {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
     gap: 2em;
+  }
+  .card__stats-list-item {
+    min-width: 7.4666666667em;
   }
 }
 .container {
