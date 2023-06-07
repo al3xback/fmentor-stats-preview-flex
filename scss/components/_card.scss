@@ -118,6 +118,6 @@
 	}
 
 	.card__stats-list-item {
-		min-width: func.em(112, var.$font-size-primary);
+		min-width: func.em(112, 12);
 	}
 }
