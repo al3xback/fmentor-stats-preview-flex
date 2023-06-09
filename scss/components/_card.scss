@@ -5,7 +5,7 @@
 .card {
 	@include mix.flexbox;
 	@include mix.flex-direction(column);
-	@include mix.flex-grow(1);
+	width: 100%;
 	max-width: func.em(420, var.$font-size-primary);
 	margin: func.em(40, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
