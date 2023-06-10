@@ -109,7 +109,6 @@
 
 	.card__stats-list {
 		@include mix.flex-direction(row);
-		@include mix.flex-wrap(wrap);
 		gap: func.em(30, var.$font-size-primary);
 	}
 
