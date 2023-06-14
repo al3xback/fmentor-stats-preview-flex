@@ -60,7 +60,7 @@
 }
 
 .card__stats-list-item {
-	gap: func.em(8, 12);
+	gap: func.em(2, 12);
 	font-size: func.em(12, var.$font-size-primary);
 	text-transform: uppercase;
 }
@@ -109,7 +109,6 @@
 
 	.card__stats-list {
 		@include mix.flex-direction(row);
-		gap: func.em(30, var.$font-size-primary);
 	}
 
 	.card__stats-list-item {
