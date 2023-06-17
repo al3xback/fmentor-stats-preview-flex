@@ -83,8 +83,14 @@
 
 	.card__image,
 	.card__content {
+		@include mix.flex-shrink(0);
 		@include mix.flex-basis(50%);
 		max-width: 50%;
+	}
+
+	.card__image-inner,
+	.card__image-inner img {
+		position: static;
 	}
 
 	.card__image-inner {

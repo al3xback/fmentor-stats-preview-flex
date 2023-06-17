@@ -291,9 +291,17 @@ ol {
   }
   .card__image,
   .card__content {
+    -webkit-flex-shrink: 0;
+    -moz-flex-shrink: 0;
+    -ms-flex: 0;
+    flex-shrink: 0;
     -webkit-flex-basis: 50%;
     flex-basis: 50%;
     max-width: 50%;
+  }
+  .card__image-inner,
+  .card__image-inner img {
+    position: static;
   }
   .card__image-inner {
     -webkit-box-flex: auto;
